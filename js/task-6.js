@@ -3,7 +3,7 @@ const numbers = [];
 let total = 0;
 
 do {
-  input = prompt("Введите число");
+  input = prompt("Введите число:");
   numbers.push(Number(input));
 } while (input !== null);
 
